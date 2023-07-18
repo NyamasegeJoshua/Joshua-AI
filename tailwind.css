@@ -1,0 +1,31 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+body {
+  @apply bg-gray-900 text-white;
+}
+
+.container {
+  @apply mx-auto px-6 py-12;
+}
+
+.header {
+  @apply text-4xl font-bold mb-4;
+}
+
+.section {
+  @apply mb-8;
+}
+
+.section-title {
+  @apply text-2xl font-bold mb-2;
+}
+
+.section-content {
+  @apply text-lg;
+}
+
+.footer {
+  @apply text-center text-sm mt-8;
+}
